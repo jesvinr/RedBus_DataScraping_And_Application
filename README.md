@@ -12,13 +12,13 @@ The "redBus Data Scraping and Filtering with STREAMLIT Application" aims to revo
 
 - **Selenium:**
 
-The selenium package is used to automate web browser interaction from Python.
+  The selenium package is used to automate web browser interaction from Python.
 
-To know more about **selenium**. Click here <https://selenium-python.readthedocs.io/>
+  To know more about **selenium**. Click here <https://selenium-python.readthedocs.io/>
 
 - **Streamlit:**
 
-  &ensp Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required.
+  Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required.
 
   To know more about **Streamlit**. Click here <https://docs.streamlit.io/>
 
