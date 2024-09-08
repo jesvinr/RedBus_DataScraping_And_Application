@@ -127,8 +127,6 @@ st.set_page_config(
     initial_sidebar_state="auto"
     )
 
-# data="https://i.pinimg.com/564x/04/6b/38/046b3884bbd9d16ba053a80c95b8f295.jpg"  #bus image link
-
 #sidebar styling 
 st.markdown("""
 <style>
@@ -155,8 +153,6 @@ with st.sidebar:
             "nav-link-selector":{'background-color':'#E6E6FA','font-weight':'bold'}
         }
     )
-
-    # st.sidebar.image(data,use_column_width=False)
 
 # if selected option is home means then add these in the page
 if selected=="Home":
@@ -217,22 +213,6 @@ if selected=="Home":
         </div>
         """, unsafe_allow_html=True)
 
-    # st.markdown("""
-    # <div class="scan-playstore">
-    #     <div>
-    #         <h3>Scan to download</h3>
-    #         <img src="https://pngimg.com/d/qr_code_PNG33.png" alt="Scan Code">
-    #     </div>
-    #     <div class="bus-image">
-    #         <img src="https://content.jdmagicbox.com/comp/chennai/k5/044pxx44.xx44.130504183442.e9k5/catalogue/www-redbus-in-adyar-chennai-bus-ticketing-agents-tj1jv.jpg" alt="Bus Image">
-    #     </div>
-    #     <div>
-    #         <h3>Download the App on</h3>
-    #         <img src="https://i2.wp.com/zeevector.com/wp-content/uploads/2021/01/Google-Play-Store-Logo-PNG.png?fit=1024%2C500&ssl=1" alt="Play Store">
-    #         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY_o-G9mMFogqWSeYzzRALpqqr8E-pvKn39w&s" alt="Play Store">
-    #     </div>
-    # </div>
-    # """, unsafe_allow_html=True)
 
 # if selected option is Search Bus means then add these in the page
 if selected=="Search Bus":
