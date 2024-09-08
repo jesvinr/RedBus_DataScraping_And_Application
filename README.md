@@ -18,7 +18,7 @@ To know more about **selenium**. Click here <https://selenium-python.readthedocs
 
 - **Streamlit:**
 
-  Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required.
+  &ensp Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required.
 
   To know more about **Streamlit**. Click here <https://docs.streamlit.io/>
 
