@@ -248,9 +248,6 @@ if selected=="Search Bus":
         routename = fetch_route_names(conn,filter_routes)  # the route name stored here (for route name dropdown)
         route_name = st.selectbox("Route Name", ['--- select the route name --'] + routename)
 
-    with col2:
-        st.subheader("Filters")
-
         # fetching distinct seat type values
         query_bus_type="select distinct bus_type from bus_data;"
         bustype=fetch_distinct_bustype(conn,query_bus_type) # the bus type stored here ( for bus type dropdown)
